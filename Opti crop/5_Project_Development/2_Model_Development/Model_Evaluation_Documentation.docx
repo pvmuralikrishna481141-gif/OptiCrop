@@ -1,0 +1,50 @@
+Epic 4: Evaluating Model Performance and Saving the Best Model
+Introduction
+
+Model evaluation is an essential stage in the machine learning pipeline that measures how accurately the trained model predicts the correct crop based on soil nutrients and environmental conditions. In the OptiCrop Smart Agricultural Production Optimization System, the Logistic Regression model was evaluated using the testing dataset to determine its prediction performance. After evaluation, the best-performing model was saved for use in the application.
+
+Evaluation Metrics
+
+The performance of the Logistic Regression model was measured using the following evaluation metrics:
+
+Accuracy Score
+Classification Report
+Confusion Matrix
+
+These metrics provide a comprehensive understanding of the model's classification performance.
+
+Model Accuracy
+
+The trained Logistic Regression model achieved an accuracy of 95.23% on the testing dataset. This indicates that the model correctly predicted the suitable crop for most of the test samples.
+
+Classification Report
+
+The classification report provides detailed performance metrics for each crop class, including:
+
+Precision
+Recall
+F1-Score
+Support
+
+These metrics help evaluate the model's ability to classify different crop categories accurately.
+
+Confusion Matrix
+
+The confusion matrix compares the actual crop labels with the predicted crop labels. It helps identify correctly classified records and any misclassifications, providing insight into the strengths and weaknesses of the model.
+
+Best Model Selection
+
+Based on the evaluation results, the Logistic Regression model demonstrated strong classification performance and was selected as the best model for deployment in the OptiCrop application.
+
+Model Saving
+
+The trained Logistic Regression model was saved using the Pickle library as logistic_model.pkl. Saving the model allows it to be loaded directly into the application without retraining, reducing execution time and improving deployment efficiency.
+
+Advantages
+Measures the prediction performance of the model.
+Identifies the most suitable machine learning model.
+Enables reliable crop recommendations.
+Supports seamless deployment in the application.
+Conclusion
+
+The evaluation process confirmed that the Logistic Regression model achieved high prediction accuracy and reliable classification performance. After comparing the evaluation metrics, the model was selected as the final model and saved for integration into the OptiCrop Smart Agricultural Production Optimization System.

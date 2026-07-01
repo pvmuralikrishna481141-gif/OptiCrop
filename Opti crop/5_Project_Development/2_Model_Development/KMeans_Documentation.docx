@@ -1,0 +1,53 @@
+# Epic 4: K-Means Clustering
+
+## Introduction
+
+K-Means Clustering is an unsupervised machine learning algorithm that groups similar data points into clusters based on their characteristics. In the OptiCrop Smart Agricultural Production Optimization System, K-Means is used to analyze agricultural data by grouping soil and environmental conditions with similar properties. This helps identify hidden patterns within the dataset before developing supervised machine learning models.
+
+## Dataset Description
+
+The agricultural dataset contains the following features:
+
+* Nitrogen (N)
+* Phosphorous (P)
+* Potassium (K)
+* Temperature
+* Humidity
+* pH
+* Rainfall
+* Crop Label
+
+For K-Means clustering, only the numerical features were used, while the crop label was excluded because clustering is performed without target labels.
+
+## Data Standardization
+
+Before applying the K-Means algorithm, all numerical features were standardized using the StandardScaler technique. Standardization ensures that each feature contributes equally to the clustering process by transforming the data to a common scale.
+
+## Model Development
+
+The K-Means algorithm was implemented using the Scikit-learn library. The number of clusters was set to five, and the model was trained using the standardized agricultural dataset. Each data record was assigned to the nearest cluster based on the similarity of its soil and environmental parameters.
+
+## Cluster Visualization
+
+The generated clusters were visualized using a scatter plot to observe the grouping of agricultural records. The visualization helps understand the distribution of different soil conditions and environmental characteristics across the clusters.
+
+## Results
+
+The K-Means model successfully grouped agricultural records into distinct clusters based on similarities in soil nutrients and climatic conditions. The clustered dataset provides useful insights into patterns that can support agricultural analysis and future predictive modeling.
+
+## Advantages
+
+* Identifies hidden patterns in agricultural data.
+* Groups similar soil conditions automatically.
+* Improves understanding of dataset characteristics.
+* Supports exploratory data analysis before supervised learning.
+
+## Limitations
+
+* The number of clusters must be specified before training.
+* Sensitive to feature scaling and initialization.
+* Does not directly predict crop labels.
+
+## Conclusion
+
+The K-Means clustering algorithm effectively organized agricultural records into meaningful clusters based on soil nutrients and environmental parameters. This exploratory analysis improves the understanding of the dataset and serves as a valuable preprocessing step for developing accurate crop prediction models in the OptiCrop system.
