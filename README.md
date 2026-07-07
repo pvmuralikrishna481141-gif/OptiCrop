@@ -18,7 +18,7 @@
 
 # 💻 GitHub Repository
 
-🔗 https://github.com/molabantimadhuri/OptiCrop_Project
+🔗 https://github.com/pvmuralikrishna481141-gif/OptiCrop
 
 ---
 
@@ -304,7 +304,7 @@ After clicking the **Predict** button, the trained Machine Learning model instan
 ## Clone Repository
 
 ```bash
-git clone https://github.com/molabantimadhuri/OptiCrop_Project.git
+git clone https://github.com/pvmuralikrishna481141-gif/OptiCrop.git
 ```
 
 ## Navigate to Project
@@ -401,7 +401,7 @@ Artificial Intelligence & Machine Learning Student
 
 ### GitHub
 
-https://github.com/molabantimadhuri
+https://github.com/pvmuralikrishna481141-gif
 
 ---
 
