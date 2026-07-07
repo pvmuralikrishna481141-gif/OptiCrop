@@ -395,7 +395,7 @@ This project demonstrates practical implementation of:
 
 # 👩‍💻 Author
 
-**Madhuri Molabanti**
+**Murali Krishna**
 
 Artificial Intelligence & Machine Learning Student
 
