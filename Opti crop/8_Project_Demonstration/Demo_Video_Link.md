@@ -6,7 +6,7 @@ OptiCrop – Smart Agricultural Production Optimization Engine
 
 ### GitHub Repository
 
-https://github.com/molabantimadhuri/OptiCrop_Project
+https://github.com/pvmuralikrishna481141-gif/OptiCrop
 
 ### Live Application
 
@@ -14,4 +14,4 @@ https://opticrop-project.onrender.com
 
 ### Demo video
 
-https://drive.google.com/drive/folders/1SZQTG9T3wBSDi9wZPtPKBuT1saS-9_C3
+https://drive.google.com/file/d/1oWXOntoAm22vbA9YMrIGis1Kdtq-BHiW/view?usp=drivesdk
